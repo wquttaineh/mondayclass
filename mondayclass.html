@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MondayClass</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+	<form id="animalForm">
+		<label for="animalInput">Submit Button</label>
+		<input type="text" id="animalIput"><br>
+		<input id="addAnimal" type="submit" value="submit">
+	</form>
+
+	
+	<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyCemlq4m7k1Pd7G6uD6JHQIuqP3RmVsFRw",
+	    authDomain: "fir-1-e0d32.firebaseapp.com",
+	    databaseURL: "https://fir-1-e0d32.firebaseio.com",
+	    storageBucket: "",
+	  };
+	  firebase.initializeApp(config);
+	</script>
+    
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<script src="js/mondayclass.js"></script>
+	
+	</body>
+</html>
